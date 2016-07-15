@@ -1,0 +1,67 @@
+@mixin floating($float) {
+   .#{$float}{
+     float: $float;
+   }
+ }
+ @include floating(right);
+ @include floating(left);
+
+ @mixin list-items($list) {
+   .container {
+     ul {
+      margin-left: 1%;
+      padding-left: 0;
+      border-bottom: 3px solid black;
+        & li:first-child {
+          background-color: grey;
+          color: white;
+          margin-right: 15%;
+          &:visited {
+            color: white;
+          }
+        }
+        li {
+          display: $list;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 1% 1.5% 0 1.5%;
+          & a {
+            list-style-type: none;
+            text-decoration: none;
+            &:visited {
+              color: black;
+            }
+          }
+        }
+      }
+     }
+   }
+ @include list-items(inline);
+
+// @each $color-name, $color value in $colors {
+//   .background-($color-name) {
+//       background-color: $color-value;
+//   }
+//   .color-#{$color-name} {
+//      color: $color-value;
+//    }
+// }
+@for $i from 1 through 6 {
+   h#{$i} {
+    margin: 0;
+    padding: 3px 8px 0 8px;
+    font-size: $font-size;
+   }
+ }
+ // @for $i from 1 through 16 {
+ //   .img-#{$i}:before {
+     @each $image-name, $image-value in $images {
+       .img-#{$image-name} {
+         width: 200px;
+         height: 200px;
+         &:before {
+           content: $image-value;
+         }
+       }
+     }
+ // }
