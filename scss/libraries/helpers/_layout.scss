@@ -95,38 +95,49 @@ header {
 }
 .left-column {
   @include span-columns(12);
-    border: 4px solid black;
     height: 100%;
+    padding: 0 3% 0 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     @media screen and (min-width: 768px) {
-      @include span-columns (9);
+      @include span-columns(9);
 }
 }
 .right-column {
   display: none;
     @media screen and (min-width: 768px) {
-      border: 4px solid purple;
       @include span-columns(3);
       display: block;
+      margin-top: 37.2812px;
+      p {
+        clear: left;
+        text-align: center;
+      }
     }
 }
 .top-row, .middle-row, .bottom-row {
   @include span-columns(12);
 }
 .first-article-large {
-  @include span-columns (12);
+  @include span-columns(12);
     @media screen and (min-width: 768px) {
-      @include span-columns (12);
+      @include span-columns(12);
 }
 }
 .second-article-medium {
   @include span-columns(12);
   @media screen and (min-width: 768px) {
-    @include span-columns (6);
+    @include span-columns(6);
 }
 }
 .third-article-medium {
   @include span-columns(12);
   @media screen and (min-width: 768px) {
-    @include span-columns (6);
+    @include span-columns(6);
+}
+}
+.second-article-small {
+@media screen and (min-width: 768px) {
+  @include span-columns(12);
 }
 }

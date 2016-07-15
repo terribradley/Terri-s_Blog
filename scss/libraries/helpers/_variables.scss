@@ -4,24 +4,25 @@ $color-second: #f6f6f6;
 $color-third: #33889f;
 $color-fourth: #90c7c9;
 $color-fourth: #98c699;
-$img-1: <img src="img/first-article-img.jpg" alt="">;
-$img-2: <img src="img/topo.jpg" alt="">;
-$img-3: <img src="img/1Matthias-Heiderich.jpg.jpg" alt="">;
-$img-4: <img src="img/chair.jpg" alt="">;
-$img-5: <img src="img/wind.jpg" alt="">;
-$img-6: <img src="img/logo-book.jpg.jpg" alt="">;
-$img-7: <img src="img/minimalist-architecture.jpg" alt="">;
-$img-8: <img src="img/olyimpics.jpg" alt="">;
-$img-9: <img src="img/sofia-pitch.jpg" alt="">;
-$img-10: <img src="img/swiss.jpg" alt="">;
-$img-11: <img src="img/Tepoztlán-Mexico.jpg" alt="">;
-$img-12: <img src="img/terra-flora.jpg" alt="">;
-$img-13: <img src="img/zaha-hadid.jpg" alt="">;
-$img-14: <img src="img/animals.png" alt="">;
-$img-15: <img src="img/adobe.jpg" alt="">;
-$img-16: <img src="img/brooke.jpg" alt="">;
-$img-16: <img src="img/fish.jpg" alt="">;
-$img-16: <img src="img/wanderers.jpg" alt="">;
+$color-fifth: white;
+$img-1: url("../img/first-article-img.jpg");
+$img-2: url("../img/topo.jpg");
+$img-3: url("../img/1Matthias-Heiderich.jpg.jpg");
+$img-4: url("../img/chair.jpg");
+$img-5: url("../img/wind.jpg");
+$img-6: url("../img/logo-book.jpg");
+$img-7: url("../img/minimalist-architecture.jpg");
+$img-8: url("../img/olyimpics.jpg");
+$img-9: url("../img/sofia-pitch.jpg");
+$img-10: url("../img/swiss.jpg");
+$img-11: url("../img/Tepoztlán-Mexico.jpg");
+$img-12: url("../img/terra-flora.jpg");
+$img-13: url("../img/zaha-hadid.jpg");
+$img-14: url("../img/animals.png");
+$img-15: url("../img/adobe.jpg");
+$img-16: url("../img/brooke.jpg");
+$img-16: url("../img/fish.jpg");
+$img-16: url("../img/wanderers.jpg");
 
  $images: (
    1: $img-1,
@@ -46,10 +47,10 @@ $img-16: <img src="img/wanderers.jpg" alt="">;
 
 
 
-// $colors: (
-//   first: $color-first,
-//   second: $color-second,
-//   third: $color-third,
-//   fourth: $color-fourth,
-//   fifth: $color-fourth
-// )
+$colors: (
+  first: $color-first,
+  second: $color-second,
+  third: $color-third,
+  fourth: $color-fourth,
+  fifth: $color-fourth
+)

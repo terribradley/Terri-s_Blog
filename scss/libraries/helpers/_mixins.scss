@@ -6,19 +6,30 @@
  @include floating(right);
  @include floating(left);
 
- @mixin list-items($list) {
+ @mixin anchors($anchor) {
    .container {
-     ul {
+     a {
+     list-style-type: $anchor;
+     text-decoration: $anchor;
+     color: lighten($color-first, 20%);
+        &:hover {
+         color: $color-fourth;
+        }
+      }
+  }
+}
+@include anchors(none);
+
+@mixin list-items($list) {
+  .container {
+    ul {
       margin-left: 1%;
       padding-left: 0;
-      border-bottom: 3px solid black;
+      border-bottom: 3px solid $color-third;
         & li:first-child {
-          background-color: grey;
-          color: white;
+          background-color: $color-third;
           margin-right: 15%;
-          &:visited {
-            color: white;
-          }
+          color: grey;
         }
         li {
           display: $list;
@@ -26,42 +37,48 @@
           text-decoration: none;
           padding: 1% 1.5% 0 1.5%;
           & a {
-            list-style-type: none;
-            text-decoration: none;
-            &:visited {
-              color: black;
-            }
+            @include anchors(none);
           }
         }
-      }
-     }
-   }
+    }
+  }
+}
  @include list-items(inline);
 
-// @each $color-name, $color value in $colors {
-//   .background-($color-name) {
-//       background-color: $color-value;
-//   }
-//   .color-#{$color-name} {
-//      color: $color-value;
-//    }
-// }
+@each $color-name, $color-value in $colors {
+  .background-#{$color-name} {
+      background-color: $color-value;
+  }
+  // .color-#{$color-name} {
+  //    color: $color-value;
+  //  }
+}
 @for $i from 1 through 6 {
    h#{$i} {
     margin: 0;
     padding: 3px 8px 0 8px;
     font-size: $font-size;
+  }
+    .right-column h#{$i} {
+      font-size: $font-size - .5em;
+
    }
  }
  // @for $i from 1 through 16 {
  //   .img-#{$i}:before {
      @each $image-name, $image-value in $images {
        .img-#{$image-name} {
-         width: 200px;
-         height: 200px;
-         &:before {
-           content: $image-value;
-         }
+         background-image: #{$image-value};
+         background-repeat: no-repeat;
+         background-size: contain;
+         width: 100%;
+         height: 300px;
+         margin: 5% auto;
+       }
+       .right-column .img-#{$image-name} {
+         float: left;
+         width: 40%;
+         height: 100px;
+         margin: 0 8px 8px;
        }
      }
- // }
