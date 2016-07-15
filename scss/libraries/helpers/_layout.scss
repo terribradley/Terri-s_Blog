@@ -1,0 +1,92 @@
+// ************nav***********.to-nav {
+  .to-nav {
+  float: right;
+  color: #fff;
+  background: #4e4e4e;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  height: 22px;
+  margin-top: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.to-nav:hover,
+.to-nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+/******primary nav bottom********/
+#primary-nav ul {
+  margin-top: 0;
+    list-style: none;
+    background: #1c1c1c;
+    padding: 5px 0;
+}
+#primary-nav li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    border-bottom: 1px solid #383838;
+}
+#primary-nav li:last-child a {
+    border-bottom: none;
+}
+#primary-nav li a:hover,
+#primary-nav li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+
+// *******************body layout********************
+
+.container {
+  @include outer-container();
+  background-color: orange;
+}
+.right-column {
+  display: none;
+    @media screen and (min-width: 768px) {
+      @include span-columns(3);
+
+      display: block;
+    }
+}
+.top-row, .middle-row, .bottom-row {
+  @include span-columns(12);
+}
+.first-article-large {
+  @include span-columns (12);
+  background-color: red;
+    @media screen and (min-width: 768px) {
+      @include span-columns (9);
+}
+}
+.second-article-medium {
+  @include span-columns(12);
+  background-color: cyan;
+  @media screen and (min-width: 768px) {
+    @include span-columns (4);
+}
+}
+.third-article-medium {
+  @include span-columns(12);
+  background-color: lavender;
+  @media screen and (min-width: 768px) {
+    @include span-columns (4);
+}
+}
