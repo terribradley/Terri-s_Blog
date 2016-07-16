@@ -376,7 +376,7 @@ html {
   text-decoration: none;
   color: #606060; }
   .container a:hover {
-    color: #98c699; }
+    color: #90c7c9; }
 
 .container ul {
   margin-left: 1%;
@@ -399,22 +399,67 @@ html {
       text-decoration: none;
       color: #606060; }
       .container ul li a .container a:hover {
-        color: #98c699; }
+        color: #90c7c9; }
 
 .background-first {
   background-color: #2d2d2d; }
 
+.color-first {
+  color: #2d2d2d; }
+
+.darken-background-first {
+  background-color: black; }
+
+.hover-tile p.color-first {
+  color: black; }
+
 .background-second {
   background-color: #f6f6f6; }
+
+.color-second {
+  color: #f6f6f6; }
+
+.darken-background-second {
+  background-color: #777777; }
+
+.hover-tile p.color-second {
+  color: black; }
 
 .background-third {
   background-color: #33889f; }
 
+.color-third {
+  color: #33889f; }
+
+.darken-background-third {
+  background-color: black; }
+
+.hover-tile p.color-third {
+  color: black; }
+
 .background-fourth {
-  background-color: #98c699; }
+  background-color: #90c7c9; }
+
+.color-fourth {
+  color: #90c7c9; }
+
+.darken-background-fourth {
+  background-color: #1d3b3d; }
+
+.hover-tile p.color-fourth {
+  color: black; }
 
 .background-fifth {
-  background-color: #98c699; }
+  background-color: #90c7c9; }
+
+.color-fifth {
+  color: #90c7c9; }
+
+.darken-background-fifth {
+  background-color: #1d3b3d; }
+
+.hover-tile p.color-fifth {
+  color: black; }
 
 h1 {
   margin: 0;
@@ -424,6 +469,10 @@ h1 {
 .right-column h1 {
   font-size: 1em; }
 
+.hover-tile-hidden h1 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
+
 h2 {
   margin: 0;
   padding: 3px 8px 0 8px;
@@ -431,6 +480,10 @@ h2 {
 
 .right-column h2 {
   font-size: 1em; }
+
+.hover-tile-hidden h2 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
 
 h3 {
   margin: 0;
@@ -440,6 +493,10 @@ h3 {
 .right-column h3 {
   font-size: 1em; }
 
+.hover-tile-hidden h3 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
+
 h4 {
   margin: 0;
   padding: 3px 8px 0 8px;
@@ -447,6 +504,10 @@ h4 {
 
 .right-column h4 {
   font-size: 1em; }
+
+.hover-tile-hidden h4 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
 
 h5 {
   margin: 0;
@@ -456,6 +517,10 @@ h5 {
 .right-column h5 {
   font-size: 1em; }
 
+.hover-tile-hidden h5 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
+
 h6 {
   margin: 0;
   padding: 3px 8px 0 8px;
@@ -463,6 +528,10 @@ h6 {
 
 .right-column h6 {
   font-size: 1em; }
+
+.hover-tile-hidden h6 {
+  font-size: 1.3em;
+  padding: 25px 0 10px 0; }
 
 .img-1 {
   background-image: url("../img/first-article-img.jpg");
@@ -770,7 +839,7 @@ h6 {
 @media screen and (min-width: 768px) {
   #primary-nav {
     position: absolute;
-    top: 2%;
+    top: 2px;
     right: 0;
     background: none; }
     #primary-nav .top {
@@ -785,14 +854,18 @@ h6 {
     clear: both;
     content: "";
     display: block; }
-  @media screen and (min-width: 768px) {
-    .container {
-      position: relative; } }
 
-header::after {
-  clear: both;
-  content: "";
-  display: block; }
+header {
+  height: 8em; }
+  header::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media screen and (min-width: 768px) {
+    header {
+      margin-top: 10%;
+      height: 16em;
+      position: relative; } }
 
 .left-column {
   float: left;
@@ -927,8 +1000,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-1 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-1 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-1 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-1 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -965,8 +1038,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-2 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-2 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-2 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-2 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1003,8 +1076,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-3 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-3 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-3 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-3 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1041,8 +1114,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-4 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-4 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-4 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-4 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1079,8 +1152,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-5 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-5 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-5 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-5 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1117,8 +1190,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-6 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-6 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-6 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-6 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1155,8 +1228,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-7 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-7 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-7 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-7 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1193,8 +1266,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-8 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-8 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-8 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-8 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1231,8 +1304,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-9 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-9 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-9 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-9 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1269,8 +1342,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-10 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-10 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-10 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-10 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1307,8 +1380,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-11 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-11 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-11 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-11 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1345,8 +1418,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-12 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-12 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-12 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-12 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1383,8 +1456,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-13 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-13 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-13 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-13 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1421,8 +1494,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-14 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-14 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-14 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-14 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1459,8 +1532,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-15 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-15 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-15 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-15 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1497,8 +1570,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-16 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-16 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-16 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-16 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1535,8 +1608,8 @@ header::after {
     transition: all 0.2s ease-in-out; }
   .hover-tile-outer-17 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
-    .hover-tile-outer-17 .hover-tile-hidden p {
-      color: white;
+    .hover-tile-outer-17 .hover-tile-hidden h4 {
+      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-17 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }

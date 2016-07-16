@@ -45,8 +45,8 @@
     .hover-tile-hidden {
       background: transparentize(#000, 0.2);
 
-      p {
-        color: $color-fifth;
+      h4 {
+        color: $color-third;
         line-height: $base-line-height;
       }
 

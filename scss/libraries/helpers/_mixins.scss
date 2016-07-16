@@ -48,9 +48,16 @@
   .background-#{$color-name} {
       background-color: $color-value;
   }
-  // .color-#{$color-name} {
-  //    color: $color-value;
-  //  }
+  .color-#{$color-name} {
+     color: $color-value;
+   }
+   .darken-background-#{$color-name} {
+     background-color: darken($color-value,50%)
+   }
+   .hover-tile p.color-#{$color-name} {
+      color: black;
+    }
+
 }
 @for $i from 1 through 6 {
    h#{$i} {
@@ -60,7 +67,10 @@
   }
     .right-column h#{$i} {
       font-size: $font-size - .5em;
-
+   }
+   .hover-tile-hidden  h#{$i} {
+     font-size: $font-size - .2em;
+     padding: 25px 0 10px 0;
    }
  }
 
