@@ -1,3 +1,10 @@
+@mixin float_class($float) {
+  .#{$float} {
+    float:$float;
+  }
+}
+@include float_class(right);
+@include float_class(left);
 
 @mixin anchors($anchor) {
  .container {
@@ -23,7 +30,6 @@
       @include clearfix;
         & li:first-child {
           background-color: $color-third;
-          margin-right: 15%;
           color: white;
           padding-bottom: 1.5%;
           float: left;
@@ -33,7 +39,7 @@
           list-style-type: none;
           text-decoration: none;
           padding: 1% 1.5% 0 1.5%;
-          float: right;
+          @include float_class(right);
           & a {
             @include anchors(none);
           }

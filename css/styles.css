@@ -371,6 +371,12 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
 .container a {
   list-style-type: none;
   text-decoration: none;
@@ -389,7 +395,6 @@ html {
     display: block; }
   .container ul li:first-child {
     background-color: #33889f;
-    margin-right: 15%;
     color: white;
     padding-bottom: 1.5%;
     float: left; }
@@ -397,8 +402,9 @@ html {
     display: inline;
     list-style-type: none;
     text-decoration: none;
-    padding: 1% 1.5% 0 1.5%;
-    float: right; }
+    padding: 1% 1.5% 0 1.5%; }
+    .container ul li .right {
+      float: right; }
     .container ul li a .container a {
       list-style-type: none;
       text-decoration: none;
@@ -1589,7 +1595,7 @@ header.img-19 {
       margin: 0 0 0.5em 0; }
 
 .footer-2 {
-  background: #40526b;
+  background: #33889f;
   display: inline-block;
   padding: 1.5em;
   width: 100%; }
@@ -1601,7 +1607,7 @@ header.img-19 {
         float: left;
         margin-bottom: 0; } }
   .footer-2 .footer-logo img {
-    height: 1.6em; }
+    height: 80%; }
   .footer-2 ul {
     line-height: 1.5em;
     margin: 0 0 1em 0;

@@ -34,7 +34,7 @@ header.img-19 {
     padding: 2% 3% 5% 3%;
     @media screen and (min-width: 768px) {
       @include span-columns(9);
-}
+    }
 }
 .right-column {
   display: none;
@@ -63,22 +63,20 @@ header.img-19 {
     width: 100%;
   }
 }
-
-
 .second-article-medium {
   @include span-columns(12);
   @media screen and (min-width: 768px) {
     @include span-columns(6);
-}
+  }
 }
 .third-article-medium {
   @include span-columns(12);
   @media screen and (min-width: 768px) {
     @include span-columns(6);
-}
+  }
 }
 .second-article-small {
 @media screen and (min-width: 768px) {
   @include span-columns(12);
-}
+  }
 }
