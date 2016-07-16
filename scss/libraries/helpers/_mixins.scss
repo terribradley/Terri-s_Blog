@@ -1,21 +1,14 @@
-@mixin floating($float) {
-   .#{$float}{
-     float: $float;
-   }
- }
- @include floating(right);
- @include floating(left);
 
- @mixin anchors($anchor) {
-   .container {
-     a {
-     list-style-type: $anchor;
-     text-decoration: $anchor;
-     color: lighten($color-first, 20%);
-        &:hover {
-         color: $color-fourth;
-        }
+@mixin anchors($anchor) {
+ .container {
+   a {
+   list-style-type: $anchor;
+   text-decoration: $anchor;
+   color: lighten($color-first, 20%);
+      &:hover {
+       color: $color-fourth;
       }
+    }
   }
 }
 @include anchors(none);
@@ -25,17 +18,23 @@
     ul {
       margin-left: 1%;
       padding-left: 0;
+      padding-bottom: 1.5%;
       border-bottom: 3px solid $color-third;
+      color: black;
         & li:first-child {
           background-color: $color-third;
           margin-right: 15%;
-          color: grey;
+          color: white;
+          padding-bottom: 1.5%;
         }
         li {
           display: $list;
           list-style-type: none;
           text-decoration: none;
           padding: 1% 1.5% 0 1.5%;
+
+          // color: black;
+
           & a {
             @include anchors(none);
           }
@@ -64,8 +63,7 @@
 
    }
  }
- // @for $i from 1 through 16 {
- //   .img-#{$i}:before {
+
      @each $image-name, $image-value in $images {
        .img-#{$image-name} {
          background-image: #{$image-value};
