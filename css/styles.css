@@ -381,19 +381,24 @@ html {
 .container ul {
   margin-left: 1%;
   padding-left: 0;
-  padding-bottom: 1.5%;
   border-bottom: 3px solid #33889f;
   color: black; }
+  .container ul::after {
+    clear: both;
+    content: "";
+    display: block; }
   .container ul li:first-child {
     background-color: #33889f;
     margin-right: 15%;
     color: white;
-    padding-bottom: 1.5%; }
+    padding-bottom: 1.5%;
+    float: left; }
   .container ul li {
     display: inline;
     list-style-type: none;
     text-decoration: none;
-    padding: 1% 1.5% 0 1.5%; }
+    padding: 1% 1.5% 0 1.5%;
+    float: right; }
     .container ul li a .container a {
       list-style-type: none;
       text-decoration: none;
@@ -918,14 +923,13 @@ header {
   width: 100%; }
   .first-article-large:last-child {
     margin-right: 0; }
-  @media screen and (min-width: 768px) {
-    .first-article-large {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .first-article-large:last-child {
-        margin-right: 0; } }
+  .first-article-large img {
+    position: relative; }
+
+.first-article-large #title-top {
+  position: abosolute;
+  background-color: white;
+  top: 50%; }
 
 .second-article-medium {
   float: left;

@@ -18,20 +18,22 @@
     ul {
       margin-left: 1%;
       padding-left: 0;
-      padding-bottom: 1.5%;
       border-bottom: 3px solid $color-third;
       color: black;
+      @include clearfix;
         & li:first-child {
           background-color: $color-third;
           margin-right: 15%;
           color: white;
           padding-bottom: 1.5%;
+          float: left;
         }
         li {
           display: $list;
           list-style-type: none;
           text-decoration: none;
           padding: 1% 1.5% 0 1.5%;
+          float: right;
 
           // color: black;
 
@@ -72,6 +74,10 @@
      font-size: $font-size - .2em;
      padding: 25px 0 10px 0;
    }
+  //  h#{$i} .top-title {
+  //    position: absolute;
+  //    bottom: 5%;
+  //  }
  }
 
      @each $image-name, $image-value in $images {

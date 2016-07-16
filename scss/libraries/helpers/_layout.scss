@@ -127,10 +127,16 @@ header {
 }
 .first-article-large {
   @include span-columns(12);
-    @media screen and (min-width: 768px) {
-      @include span-columns(12);
+  img {
+  position: relative;
 }
 }
+ .first-article-large #title-top {
+  position: abosolute;
+  background-color: $color-fifth;
+  top: 50%;
+}
+
 .second-article-medium {
   @include span-columns(12);
   @media screen and (min-width: 768px) {
