@@ -71,7 +71,7 @@
 @media screen and (min-width: 768px) {
   #primary-nav {
     position: absolute;
-    top: 2px;
+    top: 10%;;
     right: 0;
     background: none;
     & .top {
@@ -80,6 +80,9 @@
     & li {
         display: inline;
     }
+    @media screen and (min-width: 1325px) {
+      top: 15%;;
+    }
   }
 }
 
@@ -87,37 +90,57 @@
 .container {
   @include outer-container();
     @media screen and (min-width: 768px){
-
+      position: relative;
+  }
+}
+h1 {
+  margin-bottom: 10%;
+  @media screen and (max-width: 768px){
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    @media screen and (min-width:768px){
+      text-align: center;
+      font-size: 4em;
+    }
   }
 }
 header {
   @include clearfix;
   height: 8em;
   @media screen and (min-width: 768px){
-    margin-top: 10%;
+    margin-top: 40%;
     height: 16em;
-    position: relative;
+
 }
 }
 .left-column {
   @include span-columns(12);
+  margin: 0;
     height: 100%;
-    padding: 0 3% 0 3%;
+    padding: 5% 3% 0 3%;
     padding-top: 5%;
     padding-bottom: 5%;
     @media screen and (min-width: 768px) {
       @include span-columns(9);
 }
 }
+.first-article-large img {
+  width: 100%;
+}
 .right-column {
   display: none;
     @media screen and (min-width: 768px) {
       @include span-columns(3);
       display: block;
-      margin-top: 60px;
+      padding: 5% 3% 0 3%;
+      height:100%;
       p {
         clear: left;
         text-align: center;
+      }
+      img {
+        width: 100%;
       }
     }
 }
@@ -127,15 +150,8 @@ header {
 }
 .first-article-large {
   @include span-columns(12);
-  img {
-  position: relative;
 }
-}
- .first-article-large #title-top {
-  position: abosolute;
-  background-color: $color-fifth;
-  top: 50%;
-}
+
 
 .second-article-medium {
   @include span-columns(12);

@@ -540,7 +540,6 @@ h6 {
 
 .img-1 {
   background-image: url("../img/first-article-img.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -554,7 +553,6 @@ h6 {
 
 .img-2 {
   background-image: url("../img/topo.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -568,7 +566,6 @@ h6 {
 
 .img-3 {
   background-image: url("../img/1Matthias-Heiderich.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -582,7 +579,6 @@ h6 {
 
 .img-4 {
   background-image: url("../img/chair.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -596,7 +592,6 @@ h6 {
 
 .img-5 {
   background-image: url("../img/wind.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -610,7 +605,6 @@ h6 {
 
 .img-6 {
   background-image: url("../img/logo-book.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -624,7 +618,6 @@ h6 {
 
 .img-7 {
   background-image: url("../img/minimalist-architecture.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -638,7 +631,6 @@ h6 {
 
 .img-8 {
   background-image: url("../img/olyimpics.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -652,7 +644,6 @@ h6 {
 
 .img-9 {
   background-image: url("../img/sofia-pitch.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -666,7 +657,6 @@ h6 {
 
 .img-10 {
   background-image: url("../img/swiss.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -680,7 +670,6 @@ h6 {
 
 .img-11 {
   background-image: url("../img/Tepoztlán-Mexico.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -694,7 +683,6 @@ h6 {
 
 .img-12 {
   background-image: url("../img/terra-flora.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -708,7 +696,6 @@ h6 {
 
 .img-13 {
   background-image: url("../img/zaha-hadid.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -722,7 +709,6 @@ h6 {
 
 .img-14 {
   background-image: url("../img/animals.png");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -736,7 +722,6 @@ h6 {
 
 .img-15 {
   background-image: url("../img/adobe.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -750,7 +735,6 @@ h6 {
 
 .img-16 {
   background-image: url("../img/brooke.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -764,7 +748,6 @@ h6 {
 
 .img-17 {
   background-image: url("../img/fish.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -844,13 +827,17 @@ h6 {
 @media screen and (min-width: 768px) {
   #primary-nav {
     position: absolute;
-    top: 2px;
+    top: 10%;
     right: 0;
     background: none; }
     #primary-nav .top {
       display: none; }
     #primary-nav li {
       display: inline; } }
+  @media screen and (min-width: 768px) and (min-width: 1325px) {
+    #primary-nav {
+      top: 15%; } }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -859,6 +846,21 @@ h6 {
     clear: both;
     content: "";
     display: block; }
+  @media screen and (min-width: 768px) {
+    .container {
+      position: relative; } }
+
+h1 {
+  margin-bottom: 10%; }
+  @media screen and (max-width: 768px) {
+    h1 {
+      position: absolute;
+      top: 20%;
+      left: 30%; } }
+  @media screen and (max-width: 768px) and (min-width: 768px) {
+    h1 {
+      text-align: center;
+      font-size: 4em; } }
 
 header {
   height: 8em; }
@@ -868,17 +870,17 @@ header {
     display: block; }
   @media screen and (min-width: 768px) {
     header {
-      margin-top: 10%;
-      height: 16em;
-      position: relative; } }
+      margin-top: 40%;
+      height: 16em; } }
 
 .left-column {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  margin: 0;
   height: 100%;
-  padding: 0 3% 0 3%;
+  padding: 5% 3% 0 3%;
   padding-top: 5%;
   padding-bottom: 5%; }
   .left-column:last-child {
@@ -892,6 +894,9 @@ header {
       .left-column:last-child {
         margin-right: 0; } }
 
+.first-article-large img {
+  width: 100%; }
+
 .right-column {
   display: none; }
   @media screen and (min-width: 768px) {
@@ -901,12 +906,15 @@ header {
       margin-right: 2.35765%;
       width: 23.23176%;
       display: block;
-      margin-top: 60px; }
+      padding: 5% 3% 0 3%;
+      height: 100%; }
       .right-column:last-child {
         margin-right: 0; }
       .right-column p {
         clear: left;
-        text-align: center; } }
+        text-align: center; }
+      .right-column img {
+        width: 100%; } }
 
 .top-row, .middle-row, .bottom-row {
   float: left;
@@ -923,13 +931,6 @@ header {
   width: 100%; }
   .first-article-large:last-child {
     margin-right: 0; }
-  .first-article-large img {
-    position: relative; }
-
-.first-article-large #title-top {
-  position: abosolute;
-  background-color: white;
-  top: 50%; }
 
 .second-article-medium {
   float: left;

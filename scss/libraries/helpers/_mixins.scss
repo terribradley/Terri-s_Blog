@@ -83,7 +83,6 @@
      @each $image-name, $image-value in $images {
        .img-#{$image-name} {
          background-image: #{$image-value};
-         background-repeat: no-repeat;
          background-size: contain;
          width: 100%;
          height: 300px;
