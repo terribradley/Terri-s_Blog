@@ -1,0 +1,83 @@
+// ************nav***********.to-nav {
+.to-nav {
+  float: right;
+  margin: 10px 10px 0 0;
+  color: #fff;
+  background: #4e4e4e;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+    @media screen and (min-width: 768px) {
+        & {
+         display: none;
+       }
+    }
+}
+.to-nav:hover,
+.to-nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+/******primary nav bottom********/
+#primary-nav ul {
+  width: 100%;
+  margin-top: 0;
+  list-style: none;
+  padding: 2% 0;
+  @media screen and (min-width: 768px){
+    @include clearfix;
+  }
+}
+#primary-nav li a {
+  display: block;
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  height: 1.2em;
+  // border-bottom: 1px solid #383838;
+  @media screen and (min-width: 768px) {
+    & {
+      display: inline;
+      float: right;
+      border: none;
+      padding: 0 10px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+    }
+  }
+}
+#primary-nav li:last-child a {
+    border-bottom: none;
+}
+#primary-nav li a:hover,
+#primary-nav li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+@media screen and (min-width: 768px) {
+  #primary-nav {
+    position: absolute;
+    top: 22em;
+    right: 0;
+    background: none;
+    & .top {
+      display: none;
+    }
+    & li {
+        display: inline;
+    }
+  }
+}
