@@ -468,11 +468,11 @@ html {
 
 h1 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h1 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h1 {
   font-size: 1.3em;
@@ -480,11 +480,11 @@ h1 {
 
 h2 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h2 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h2 {
   font-size: 1.3em;
@@ -492,11 +492,11 @@ h2 {
 
 h3 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h3 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h3 {
   font-size: 1.3em;
@@ -504,11 +504,11 @@ h3 {
 
 h4 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h4 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h4 {
   font-size: 1.3em;
@@ -516,11 +516,11 @@ h4 {
 
 h5 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h5 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h5 {
   font-size: 1.3em;
@@ -528,11 +528,11 @@ h5 {
 
 h6 {
   margin: 0;
-  padding: 3px 8px 0 8px;
+  padding: 6px 8px 0 6px;
   font-size: 1.5em; }
 
 .right-column h6 {
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .hover-tile-hidden h6 {
   font-size: 1.3em;
@@ -540,7 +540,7 @@ h6 {
 
 .img-1 {
   background-image: url("../img/first-article-img.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -553,7 +553,7 @@ h6 {
 
 .img-2 {
   background-image: url("../img/topo.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -566,7 +566,7 @@ h6 {
 
 .img-3 {
   background-image: url("../img/1Matthias-Heiderich.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -579,7 +579,7 @@ h6 {
 
 .img-4 {
   background-image: url("../img/chair.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -592,7 +592,7 @@ h6 {
 
 .img-5 {
   background-image: url("../img/wind.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -605,7 +605,7 @@ h6 {
 
 .img-6 {
   background-image: url("../img/logo-book.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -618,7 +618,7 @@ h6 {
 
 .img-7 {
   background-image: url("../img/minimalist-architecture.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -631,7 +631,7 @@ h6 {
 
 .img-8 {
   background-image: url("../img/olyimpics.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -644,7 +644,7 @@ h6 {
 
 .img-9 {
   background-image: url("../img/sofia-pitch.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -657,7 +657,7 @@ h6 {
 
 .img-10 {
   background-image: url("../img/swiss.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -670,7 +670,7 @@ h6 {
 
 .img-11 {
   background-image: url("../img/Tepoztlán-Mexico.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -683,7 +683,7 @@ h6 {
 
 .img-12 {
   background-image: url("../img/terra-flora.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -696,7 +696,7 @@ h6 {
 
 .img-13 {
   background-image: url("../img/zaha-hadid.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -709,7 +709,7 @@ h6 {
 
 .img-14 {
   background-image: url("../img/animals.png");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -722,7 +722,7 @@ h6 {
 
 .img-15 {
   background-image: url("../img/adobe.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -735,7 +735,7 @@ h6 {
 
 .img-16 {
   background-image: url("../img/brooke.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
@@ -748,12 +748,25 @@ h6 {
 
 .img-17 {
   background-image: url("../img/fish.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 300px;
   margin: 5% auto; }
 
 .right-column .img-17 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-19 {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-19 {
   float: left;
   width: 40%;
   height: 100px;
@@ -771,21 +784,22 @@ h6 {
     .container {
       position: relative; } }
 
-header.img-3 {
+header.img-19 {
   margin: 0;
   border-bottom: 4px solid black; }
-  header.img-3::after {
+  header.img-19::after {
     clear: both;
     content: "";
     display: block; }
   @media screen and (min-width: 768px) {
-    header.img-3 {
+    header.img-19 {
       height: 22em;
-      background-attachment: fixed; } }
-  header.img-3 img {
+      background-attachment: fixed;
+      background-position: right; } }
+  header.img-19 img {
     display: none; }
     @media screen and (min-width: 768px) {
-      header.img-3 img {
+      header.img-19 img {
         display: block;
         position: absolute;
         width: 8em;
@@ -799,9 +813,7 @@ header.img-3 {
   width: 100%;
   margin: 0;
   height: 100%;
-  padding: 5% 3% 0 3%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
+  padding: 2% 3% 5% 3%; }
   .left-column:last-child {
     margin-right: 0; }
   @media screen and (min-width: 768px) {
@@ -813,9 +825,6 @@ header.img-3 {
       .left-column:last-child {
         margin-right: 0; } }
 
-.first-article-large img {
-  width: 100%; }
-
 .right-column {
   display: none; }
   @media screen and (min-width: 768px) {
@@ -825,13 +834,13 @@ header.img-3 {
       margin-right: 2.35765%;
       width: 23.23176%;
       display: block;
-      padding: 5% 3% 0 3%;
+      padding: 2% 1% 0 1%;
       height: 100%; }
       .right-column:last-child {
         margin-right: 0; }
       .right-column p {
         clear: left;
-        text-align: center; }
+        padding-left: 6px; }
       .right-column img {
         width: 100%; } }
 
@@ -839,7 +848,8 @@ header.img-3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5%; }
   .top-row:last-child, .middle-row:last-child, .bottom-row:last-child {
     margin-right: 0; }
 
@@ -850,6 +860,8 @@ header.img-3 {
   width: 100%; }
   .first-article-large:last-child {
     margin-right: 0; }
+  .first-article-large img {
+    width: 100%; }
 
 .second-article-medium {
   float: left;
@@ -900,15 +912,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-1 {
-      width: 100%; } }
-  .hover-tile-outer-1 .hover-tile-outer {
+  .hover-tile-outer-1 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-1 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-1 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -938,15 +950,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-2 {
-      width: 100%; } }
-  .hover-tile-outer-2 .hover-tile-outer {
+  .hover-tile-outer-2 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-2 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-2 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -976,15 +988,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-3 {
-      width: 100%; } }
-  .hover-tile-outer-3 .hover-tile-outer {
+  .hover-tile-outer-3 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-3 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-3 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1014,15 +1026,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-4 {
-      width: 100%; } }
-  .hover-tile-outer-4 .hover-tile-outer {
+  .hover-tile-outer-4 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-4 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-4 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1052,15 +1064,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-5 {
-      width: 100%; } }
-  .hover-tile-outer-5 .hover-tile-outer {
+  .hover-tile-outer-5 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-5 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-5 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1090,15 +1102,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-6 {
-      width: 100%; } }
-  .hover-tile-outer-6 .hover-tile-outer {
+  .hover-tile-outer-6 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-6 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-6 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1128,15 +1140,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-7 {
-      width: 100%; } }
-  .hover-tile-outer-7 .hover-tile-outer {
+  .hover-tile-outer-7 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-7 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-7 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1166,15 +1178,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-8 {
-      width: 100%; } }
-  .hover-tile-outer-8 .hover-tile-outer {
+  .hover-tile-outer-8 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-8 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-8 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1204,15 +1216,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-9 {
-      width: 100%; } }
-  .hover-tile-outer-9 .hover-tile-outer {
+  .hover-tile-outer-9 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-9 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-9 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1242,15 +1254,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-10 {
-      width: 100%; } }
-  .hover-tile-outer-10 .hover-tile-outer {
+  .hover-tile-outer-10 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-10 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-10 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1280,15 +1292,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-11 {
-      width: 100%; } }
-  .hover-tile-outer-11 .hover-tile-outer {
+  .hover-tile-outer-11 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-11 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-11 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1318,15 +1330,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-12 {
-      width: 100%; } }
-  .hover-tile-outer-12 .hover-tile-outer {
+  .hover-tile-outer-12 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-12 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-12 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1356,15 +1368,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-13 {
-      width: 100%; } }
-  .hover-tile-outer-13 .hover-tile-outer {
+  .hover-tile-outer-13 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-13 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-13 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1394,15 +1406,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-14 {
-      width: 100%; } }
-  .hover-tile-outer-14 .hover-tile-outer {
+  .hover-tile-outer-14 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-14 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-14 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1432,15 +1444,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-15 {
-      width: 100%; } }
-  .hover-tile-outer-15 .hover-tile-outer {
+  .hover-tile-outer-15 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-15 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-15 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1470,15 +1482,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-16 {
-      width: 100%; } }
-  .hover-tile-outer-16 .hover-tile-outer {
+  .hover-tile-outer-16 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-16 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-16 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1508,15 +1520,15 @@ header.img-3 {
   background-repeat: no-repeat;
   border: 1px solid gainsboro;
   cursor: pointer;
-  width: 400px;
+  width: 98%;
   height: 30em;
   margin-bottom: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .hover-tile-outer-17 {
-      width: 100%; } }
-  .hover-tile-outer-17 .hover-tile-outer {
+  .hover-tile-outer-17 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-17 .hover-tile-outer-10 {
+        width: 250px; } }
   .hover-tile-outer-17 .hover-tile-container {
     height: 30em;
     overflow: hidden;
@@ -1536,6 +1548,44 @@ header.img-3 {
       color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-17 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-19 {
+  background: url("../img/header.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-19 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-19 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-19 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-19 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-19 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-19 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-19 .hover-tile-hidden h4 {
+      color: #33889f;
+      line-height: 1.5em; }
+    .hover-tile-outer-19 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
 
 .footer-2 {
