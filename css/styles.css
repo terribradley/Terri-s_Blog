@@ -481,12 +481,12 @@ h1 {
 .right-column h1 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h1 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h1 {
+  font-size: 0.7em; }
 
-.hover-tile h1 {
-  font-size: 0.8em; }
+.hover-tile-hidden h1 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 h2 {
   margin: 0;
@@ -496,12 +496,12 @@ h2 {
 .right-column h2 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h2 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h2 {
+  font-size: 0.7em; }
 
-.hover-tile h2 {
-  font-size: 0.8em; }
+.hover-tile-hidden h2 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 h3 {
   margin: 0;
@@ -511,12 +511,12 @@ h3 {
 .right-column h3 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h3 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h3 {
+  font-size: 0.7em; }
 
-.hover-tile h3 {
-  font-size: 0.8em; }
+.hover-tile-hidden h3 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 h4 {
   margin: 0;
@@ -526,12 +526,12 @@ h4 {
 .right-column h4 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h4 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h4 {
+  font-size: 0.7em; }
 
-.hover-tile h4 {
-  font-size: 0.8em; }
+.hover-tile-hidden h4 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 h5 {
   margin: 0;
@@ -541,12 +541,12 @@ h5 {
 .right-column h5 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h5 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h5 {
+  font-size: 0.7em; }
 
-.hover-tile h5 {
-  font-size: 0.8em; }
+.hover-tile-hidden h5 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 h6 {
   margin: 0;
@@ -556,12 +556,12 @@ h6 {
 .right-column h6 {
   font-size: 0.9em; }
 
-.hover-tile-hidden h6 {
-  font-size: 1.3em;
-  padding: 25px 0 10px 0; }
+.hover-tile-visible h6 {
+  font-size: 0.7em; }
 
-.hover-tile h6 {
-  font-size: 0.8em; }
+.hover-tile-hidden h6 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
 
 .img-1 {
   background-image: url("../img/first-article-img.jpg");
@@ -888,7 +888,8 @@ header.img-19 {
         clear: left;
         padding-left: 6px; }
       .right-column img {
-        width: 100%; } }
+        width: 100%;
+        border: 1px solid #747474; } }
 
 .top-row, .middle-row, .bottom-row {
   float: left;
@@ -907,7 +908,8 @@ header.img-19 {
   .first-article-large:last-child {
     margin-right: 0; }
   .first-article-large img {
-    width: 100%; }
+    width: 100%;
+    border: 1px solid #747474; }
 
 .second-article-medium {
   float: left;
@@ -980,16 +982,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-1 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-1 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-1 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-1 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-1 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1024,16 +1025,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-2 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-2 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-2 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-2 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-2 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1068,16 +1068,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-3 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-3 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-3 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-3 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-3 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1112,16 +1111,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-4 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-4 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-4 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-4 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-4 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1156,16 +1154,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-5 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-5 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-5 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-5 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-5 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1200,16 +1197,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-6 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-6 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-6 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-6 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-6 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1244,16 +1240,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-7 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-7 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-7 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-7 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-7 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1288,16 +1283,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-8 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-8 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-8 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-8 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-8 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1332,16 +1326,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-9 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-9 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-9 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-9 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-9 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1376,16 +1369,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-10 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-10 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-10 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-10 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-10 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1420,16 +1412,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-11 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-11 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-11 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-11 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-11 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1464,16 +1455,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-12 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-12 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-12 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-12 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-12 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1508,16 +1498,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-13 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-13 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-13 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-13 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-13 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1552,16 +1541,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-14 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-14 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-14 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-14 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-14 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1596,16 +1584,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-15 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-15 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-15 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-15 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-15 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1640,16 +1627,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-16 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-16 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-16 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-16 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-16 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1684,16 +1670,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-17 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-17 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-17 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-17 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-17 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }
@@ -1728,16 +1713,15 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
-    .hover-tile-outer-19 .hover-tile h3 {
-      color: #2d2d2d;
-      height: inherit;
-      background-color: rgba(255, 255, 255, 0.6);
-      width: 28%;
-      height: 25px; }
+  .hover-tile-outer-19 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 28%;
+    height: 25px; }
   .hover-tile-outer-19 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-19 .hover-tile-hidden h4 {
-      color: #33889f;
       line-height: 1.5em; }
     .hover-tile-outer-19 .hover-tile-hidden p {
       margin: 0 0 0.5em 0; }

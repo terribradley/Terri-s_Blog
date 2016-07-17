@@ -73,14 +73,15 @@
     }
     .right-column h#{$i} {
       font-size: $font-size - .6em;
-   }
-   .hover-tile-hidden  h#{$i} {
-     font-size: $font-size - .2em;
+    }
+    .hover-tile-visible h#{$i} {
+     font-size: $font-size - .8em;
+    }
+    .hover-tile-hidden  h#{$i} {
+     font-size: $font-size;
      padding: 25px 0 10px 0;
-   }
-   .hover-tile h#{$i} {
-     font-size: $font-size - .7em;
-   }
+    }
+
  }
 
 @each $image-name, $image-value in $images {

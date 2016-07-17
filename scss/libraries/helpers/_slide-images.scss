@@ -38,7 +38,9 @@
       overflow: hidden;
       padding: $base-spacing;
       transition: all 0.2s ease-in-out;
-      & h3 {
+    }
+    .hover-tile-visible {
+       h3 {
         color: $color-first;
         height: inherit;
         background-color: transparentize($color-fifth, .4);
@@ -50,8 +52,8 @@
     .hover-tile-hidden {
       background: transparentize(#000, 0.2);
 
-      h4 {
-        color: $color-third;
+      & h4 {
+
         line-height: $base-line-height;
       }
 
