@@ -30,14 +30,14 @@
         & li:first-child {
           background-color: $color-third;
           color: white;
-          padding-bottom: 1.5%;
+          padding: 1% 1.5% 1% 1.5%;
           @include float_class(left);
         }
         li {
           display: $list;
           list-style-type: none;
           text-decoration: none;
-          padding: 1% 1.5% 0 1.5%;
+          padding: 1% 1.5% .5% 1.5%;
           @include float_class(right);
           & a {
             color: lighten($color-first, 20%);
@@ -77,6 +77,9 @@
    .hover-tile-hidden  h#{$i} {
      font-size: $font-size - .2em;
      padding: 25px 0 10px 0;
+   }
+   .hover-tile h#{$i} {
+     font-size: $font-size - .7em;
    }
  }
 

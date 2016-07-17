@@ -26,18 +26,25 @@
       overflow: hidden;
         margin: 0;
     }
-    
+
     .hover-tile-container:hover > .hover-tile {
       transform: translate(0, -100%);
     }
 
     .hover-tile {
       background: inherit;
-      color: white;
+      color: $color-fifth;
       height: inherit;
       overflow: hidden;
       padding: $base-spacing;
       transition: all 0.2s ease-in-out;
+      & h3 {
+        color: $color-first;
+        height: inherit;
+        background-color: transparentize($color-fifth, .4);
+        width: 28%;
+        height: 25px;
+      }
     }
 
     .hover-tile-hidden {

@@ -395,14 +395,14 @@ html {
   .container ul li:first-child {
     background-color: #33889f;
     color: white;
-    padding-bottom: 1.5%; }
+    padding: 1% 1.5% 1% 1.5%; }
     .container ul li:first-child .left {
       float: left; }
   .container ul li {
     display: inline;
     list-style-type: none;
     text-decoration: none;
-    padding: 1% 1.5% 0 1.5%; }
+    padding: 1% 1.5% .5% 1.5%; }
     .container ul li .right {
       float: right; }
     .container ul li a {
@@ -485,6 +485,9 @@ h1 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
 
+.hover-tile h1 {
+  font-size: 0.8em; }
+
 h2 {
   margin: 0;
   padding: 5px 8px 0 6px;
@@ -496,6 +499,9 @@ h2 {
 .hover-tile-hidden h2 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
+
+.hover-tile h2 {
+  font-size: 0.8em; }
 
 h3 {
   margin: 0;
@@ -509,6 +515,9 @@ h3 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
 
+.hover-tile h3 {
+  font-size: 0.8em; }
+
 h4 {
   margin: 0;
   padding: 5px 8px 0 6px;
@@ -520,6 +529,9 @@ h4 {
 .hover-tile-hidden h4 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
+
+.hover-tile h4 {
+  font-size: 0.8em; }
 
 h5 {
   margin: 0;
@@ -533,6 +545,9 @@ h5 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
 
+.hover-tile h5 {
+  font-size: 0.8em; }
+
 h6 {
   margin: 0;
   padding: 5px 8px 0 6px;
@@ -544,6 +559,9 @@ h6 {
 .hover-tile-hidden h6 {
   font-size: 1.3em;
   padding: 25px 0 10px 0; }
+
+.hover-tile h6 {
+  font-size: 0.8em; }
 
 .img-1 {
   background-image: url("../img/first-article-img.jpg");
@@ -962,6 +980,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-1 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-1 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-1 .hover-tile-hidden h4 {
@@ -1000,6 +1024,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-2 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-2 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-2 .hover-tile-hidden h4 {
@@ -1038,6 +1068,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-3 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-3 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-3 .hover-tile-hidden h4 {
@@ -1076,6 +1112,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-4 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-4 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-4 .hover-tile-hidden h4 {
@@ -1114,6 +1156,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-5 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-5 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-5 .hover-tile-hidden h4 {
@@ -1152,6 +1200,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-6 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-6 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-6 .hover-tile-hidden h4 {
@@ -1190,6 +1244,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-7 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-7 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-7 .hover-tile-hidden h4 {
@@ -1228,6 +1288,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-8 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-8 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-8 .hover-tile-hidden h4 {
@@ -1266,6 +1332,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-9 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-9 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-9 .hover-tile-hidden h4 {
@@ -1304,6 +1376,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-10 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-10 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-10 .hover-tile-hidden h4 {
@@ -1342,6 +1420,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-11 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-11 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-11 .hover-tile-hidden h4 {
@@ -1380,6 +1464,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-12 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-12 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-12 .hover-tile-hidden h4 {
@@ -1418,6 +1508,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-13 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-13 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-13 .hover-tile-hidden h4 {
@@ -1456,6 +1552,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-14 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-14 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-14 .hover-tile-hidden h4 {
@@ -1494,6 +1596,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-15 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-15 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-15 .hover-tile-hidden h4 {
@@ -1532,6 +1640,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-16 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-16 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-16 .hover-tile-hidden h4 {
@@ -1570,6 +1684,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-17 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-17 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-17 .hover-tile-hidden h4 {
@@ -1608,6 +1728,12 @@ header.img-19 {
     overflow: hidden;
     padding: 1.5em;
     transition: all 0.2s ease-in-out; }
+    .hover-tile-outer-19 .hover-tile h3 {
+      color: #2d2d2d;
+      height: inherit;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 28%;
+      height: 25px; }
   .hover-tile-outer-19 .hover-tile-hidden {
     background: rgba(0, 0, 0, 0.8); }
     .hover-tile-outer-19 .hover-tile-hidden h4 {
