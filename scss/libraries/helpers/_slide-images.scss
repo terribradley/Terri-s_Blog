@@ -44,8 +44,12 @@
         color: $color-first;
         height: inherit;
         background-color: transparentize($color-fifth, .4);
-        width: 28%;
+        width: 30%;
         height: 25px;
+        text-align: center;
+        @media screen and (min-width: $media-mobile) {
+          width: 50%;
+        }
       }
     }
 
