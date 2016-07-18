@@ -5,7 +5,7 @@ body {
 }
 .container {
   @include outer-container();
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $media-mobile){
       position: relative;
   }
 }
@@ -13,14 +13,14 @@ header.img-19 {
   @include clearfix;
     margin: 0;
     border-bottom: 4px solid black;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $media-mobile){
       height: 22em;
       background-attachment: fixed;
       background-position: right;
     }
     & img {
       display: none;
-      @media screen and (min-width: 768px){
+      @media screen and (min-width: $media-mobile){
         display: block;
         position: absolute;
         width: 8em;
@@ -35,13 +35,13 @@ header.img-19 {
     margin: 0;
     height: 100%;
     padding: 2% 3% 5% 3%;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $media-mobile) {
       @include span-columns(9);
     }
 }
 .right-column {
   display: none;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $media-mobile) {
       @include span-columns(3);
       display: block;
       padding: 2% 1% 0 1%;
@@ -70,18 +70,18 @@ header.img-19 {
 }
 .second-article-medium {
   @include span-columns(12);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $media-mobile) {
     @include span-columns(6);
   }
 }
 .third-article-medium {
   @include span-columns(12);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $media-mobile) {
     @include span-columns(6);
   }
 }
 .second-article-small {
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $media-mobile) {
   @include span-columns(12);
   }
 }
