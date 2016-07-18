@@ -1,112 +1,1930 @@
-/*
-Error: Undefined variable: "$media-mobile".
-        on line 50 of scss/libraries/helpers/_slide-images.scss
-        from line 7 of scss/styles.scss
+@charset "UTF-8";
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
-Backtrace:
-scss/libraries/helpers/_slide-images.scss:50
-scss/styles.scss:7
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:542:in `block in run_interp_no_strip'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:540:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:540:in `run_interp_no_strip'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:547:in `run_interp'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:512:in `visit_media'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:242:in `block (3 levels) in visit_each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:242:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:242:in `block (2 levels) in visit_each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:234:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:234:in `block in visit_each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:233:in `visit_each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$media-mobile\".\A         on line 50 of scss/libraries/helpers/_slide-images.scss\A         from line 7 of scss/styles.scss"; }
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+optgroup {
+  font-weight: bold; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.container a {
+  list-style-type: none;
+  text-decoration: none; }
+  .container a:hover {
+    color: #90c7c9; }
+
+.container ul {
+  margin-top: 0;
+  padding-left: 0;
+  border-bottom: 3px solid #33889f; }
+  .container ul::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .container ul li:first-child {
+    background-color: #33889f; }
+    .container ul li:first-child .left {
+      float: left; }
+    .container ul li:first-child a {
+      color: white; }
+  .container ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    padding: .6em .8em .6em .8em; }
+    .container ul li .right {
+      float: right; }
+    .container ul li a {
+      color: #606060; }
+      .container ul li a .container a {
+        list-style-type: none;
+        text-decoration: none; }
+        .container ul li a .container a:hover {
+          color: #90c7c9; }
+
+.background-first {
+  background-color: #2d2d2d; }
+
+.color-first {
+  color: #2d2d2d; }
+
+.darken-background-first {
+  background-color: black; }
+
+.hover-tile p.color-first {
+  color: black; }
+
+.background-second {
+  background-color: #f6f6f6; }
+
+.color-second {
+  color: #f6f6f6; }
+
+.darken-background-second {
+  background-color: #777777; }
+
+.hover-tile p.color-second {
+  color: black; }
+
+.background-third {
+  background-color: #33889f; }
+
+.color-third {
+  color: #33889f; }
+
+.darken-background-third {
+  background-color: black; }
+
+.hover-tile p.color-third {
+  color: black; }
+
+.background-fourth {
+  background-color: #90c7c9; }
+
+.color-fourth {
+  color: #90c7c9; }
+
+.darken-background-fourth {
+  background-color: #1d3b3d; }
+
+.hover-tile p.color-fourth {
+  color: black; }
+
+.background-fifth {
+  background-color: #90c7c9; }
+
+.color-fifth {
+  color: #90c7c9; }
+
+.darken-background-fifth {
+  background-color: #1d3b3d; }
+
+.hover-tile p.color-fifth {
+  color: black; }
+
+h1 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h1 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h1 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h1 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+h2 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h2 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h2 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h2 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+h3 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h3 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h3 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h3 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+h4 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h4 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h4 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h4 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+h5 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h5 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h5 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h5 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+h6 {
+  margin: 0;
+  padding: 5px 8px 0 6px;
+  font-size: 1.5em; }
+
+.right-column h6 {
+  font-size: 0.9em; }
+
+.hover-tile-visible h6 {
+  font-size: 0.7em; }
+
+.hover-tile-hidden h6 {
+  font-size: 1.5em;
+  padding: 25px 0 10px 0; }
+
+.img-1 {
+  background-image: url("../img/first-article-img.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-1 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-2 {
+  background-image: url("../img/topo.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-2 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-3 {
+  background-image: url("../img/1Matthias-Heiderich.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-3 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-4 {
+  background-image: url("../img/chair.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-4 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-5 {
+  background-image: url("../img/wind.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-5 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-6 {
+  background-image: url("../img/logo-book.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-6 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-7 {
+  background-image: url("../img/minimalist-architecture.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-7 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-8 {
+  background-image: url("../img/olyimpics.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-8 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-9 {
+  background-image: url("../img/sofia-pitch.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-9 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-10 {
+  background-image: url("../img/swiss.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-10 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-11 {
+  background-image: url("../img/Tepoztlán-Mexico.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-11 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-12 {
+  background-image: url("../img/terra-flora.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-12 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-13 {
+  background-image: url("../img/zaha-hadid.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-13 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-14 {
+  background-image: url("../img/animals.png");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-14 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-15 {
+  background-image: url("../img/adobe.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-15 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-16 {
+  background-image: url("../img/brooke.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-16 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-17 {
+  background-image: url("../img/fish.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-17 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+.img-19 {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  border: 1px solid #474747;
+  width: 100%;
+  height: 300px;
+  margin: 5% auto; }
+
+.right-column .img-19 {
+  float: left;
+  width: 40%;
+  height: 100px;
+  margin: 0 8px 8px; }
+
+body {
+  background-color: #edf6f6; }
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media screen and (min-width: 768px) {
+    .container {
+      position: relative; } }
+
+header.img-19 {
+  margin: 0;
+  border-bottom: 4px solid black; }
+  header.img-19::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media screen and (min-width: 768px) {
+    header.img-19 {
+      height: 22em;
+      background-attachment: fixed;
+      background-position: right; } }
+  header.img-19 img {
+    display: none; }
+    @media screen and (min-width: 768px) {
+      header.img-19 img {
+        display: block;
+        position: absolute;
+        width: 8em;
+        top: 16.7em;
+        left: 45%; } }
+
+.left-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 2% 3% 5% 3%; }
+  .left-column:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .left-column {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .left-column:last-child {
+        margin-right: 0; } }
+
+.right-column {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .right-column {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      display: block;
+      padding: 2% 1% 0 1%;
+      height: 100%; }
+      .right-column:last-child {
+        margin-right: 0; }
+      .right-column p {
+        clear: left;
+        padding-left: 6px; }
+      .right-column img {
+        width: 100%;
+        border: 1px solid #747474; } }
+
+.top-row, .middle-row, .bottom-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-top: 5%; }
+  .top-row:last-child, .middle-row:last-child, .bottom-row:last-child {
+    margin-right: 0; }
+
+.first-article-large {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .first-article-large:last-child {
+    margin-right: 0; }
+  .first-article-large img {
+    width: 100%;
+    border: 1px solid #747474; }
+
+.second-article-medium {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .second-article-medium:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .second-article-medium {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .second-article-medium:last-child {
+        margin-right: 0; } }
+
+.third-article-medium {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .third-article-medium:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .third-article-medium {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .third-article-medium:last-child {
+        margin-right: 0; } }
+
+@media screen and (min-width: 768px) {
+  .second-article-small {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .second-article-small:last-child {
+      margin-right: 0; } }
+
+.hover-tile-outer-1 {
+  background: url("../img/first-article-img.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-1 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-1 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-1 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-1 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-1 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-1 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-1 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-1 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-1 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-1 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-2 {
+  background: url("../img/topo.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-2 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-2 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-2 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-2 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-2 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-2 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-2 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-2 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-2 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-2 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-3 {
+  background: url("../img/1Matthias-Heiderich.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-3 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-3 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-3 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-3 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-3 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-3 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-3 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-3 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-3 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-3 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-4 {
+  background: url("../img/chair.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-4 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-4 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-4 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-4 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-4 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-4 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-4 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-4 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-4 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-4 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-5 {
+  background: url("../img/wind.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-5 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-5 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-5 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-5 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-5 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-5 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-5 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-5 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-5 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-5 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-6 {
+  background: url("../img/logo-book.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-6 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-6 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-6 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-6 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-6 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-6 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-6 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-6 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-6 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-6 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-7 {
+  background: url("../img/minimalist-architecture.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-7 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-7 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-7 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-7 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-7 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-7 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-7 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-7 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-7 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-7 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-8 {
+  background: url("../img/olyimpics.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-8 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-8 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-8 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-8 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-8 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-8 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-8 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-8 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-8 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-8 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-9 {
+  background: url("../img/sofia-pitch.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-9 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-9 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-9 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-9 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-9 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-9 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-9 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-9 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-9 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-9 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-10 {
+  background: url("../img/swiss.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-10 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-10 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-10 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-10 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-10 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-10 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-10 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-10 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-10 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-10 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-11 {
+  background: url("../img/Tepoztlán-Mexico.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-11 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-11 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-11 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-11 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-11 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-11 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-11 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-11 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-11 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-11 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-12 {
+  background: url("../img/terra-flora.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-12 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-12 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-12 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-12 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-12 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-12 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-12 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-12 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-12 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-12 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-13 {
+  background: url("../img/zaha-hadid.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-13 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-13 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-13 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-13 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-13 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-13 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-13 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-13 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-13 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-13 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-14 {
+  background: url("../img/animals.png");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-14 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-14 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-14 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-14 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-14 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-14 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-14 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-14 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-14 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-14 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-15 {
+  background: url("../img/adobe.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-15 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-15 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-15 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-15 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-15 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-15 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-15 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-15 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-15 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-15 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-16 {
+  background: url("../img/brooke.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-16 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-16 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-16 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-16 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-16 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-16 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-16 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-16 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-16 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-16 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-17 {
+  background: url("../img/fish.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-17 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-17 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-17 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-17 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-17 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-17 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-17 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-17 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-17 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-17 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.hover-tile-outer-19 {
+  background: url("../img/header.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid gainsboro;
+  cursor: pointer;
+  width: 98%;
+  height: 30em;
+  margin-bottom: 1.5em; }
+  .hover-tile-outer-19 .hover-tile-outer-10 {
+    width: 200px;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .hover-tile-outer-19 .hover-tile-outer-10 {
+        width: 250px; } }
+  .hover-tile-outer-19 .hover-tile-container {
+    height: 30em;
+    overflow: hidden;
+    margin: 0; }
+  .hover-tile-outer-19 .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer-19 .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer-19 .hover-tile-visible h3 {
+    color: #2d2d2d;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 30%;
+    height: 25px;
+    text-align: center; }
+    @media screen and (min-width: 870px) {
+      .hover-tile-outer-19 .hover-tile-visible h3 {
+        width: 50%; } }
+  .hover-tile-outer-19 .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.8); }
+    .hover-tile-outer-19 .hover-tile-hidden h4 {
+      line-height: 1.5em; }
+    .hover-tile-outer-19 .hover-tile-hidden p {
+      margin: 0 0 0.5em 0; }
+
+.footer-2 {
+  margin-top: 2%;
+  background: #33889f;
+  display: inline-block;
+  padding: 1.5em;
+  width: 100%; }
+  .footer-2 .footer-logo {
+    margin-bottom: 1em;
+    margin-right: 1em; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 .footer-logo {
+        float: left;
+        margin-bottom: 0; } }
+  .footer-2 .footer-logo img {
+    height: 45px; }
+  .footer-2 ul {
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    padding: 0; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 ul {
+        float: left;
+        line-height: 1.8em;
+        margin-bottom: 0;
+        margin-left: 1em; } }
+  .footer-2 ul li {
+    list-style: none;
+    padding-right: 1em; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 ul li {
+        display: inline;
+        text-align: left; } }
+  .footer-2 ul li a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none; }
+    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
+      color: white; }
+  @media screen and (min-width: 53.75em) {
+    .footer-2 .footer-secondary-links {
+      float: right; } }
+  .footer-2 .footer-secondary-links li {
+    font-size: 0.8em; }
+  .footer-2 .footer-secondary-links ul.footer-social {
+    margin: 1em 0 0 0; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 .footer-secondary-links ul.footer-social {
+        float: right;
+        margin-top: 0; } }
+    .footer-2 .footer-secondary-links ul.footer-social li {
+      float: left;
+      font-size: 1em;
+      line-height: 0;
+      margin: 0;
+      padding-right: 0.7em; }
+      .footer-2 .footer-secondary-links ul.footer-social li:last-child {
+        padding-right: 0; }
+    .footer-2 .footer-secondary-links ul.footer-social img {
+      height: 1.6em;
+      opacity: 0.7;
+      padding: 1px; }
+      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
+        opacity: 1; }
+
+.to-nav {
+  margin: 20px 20px 0 0;
+  background: #2d2d2d;
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 2px; }
+  .to-nav .right {
+    float: right; }
+  @media screen and (min-width: 768px) {
+    .to-nav {
+      display: none; } }
+
+.to-nav:hover,
+.to-nav:focus {
+  background: #606060; }
+
+/******primary nav bottom********/
+#primary-nav ul {
+  width: 100%;
+  margin-top: 0;
+  list-style: none;
+  padding: 2% 0; }
+  @media screen and (min-width: 768px) {
+    #primary-nav ul::after {
+      clear: both;
+      content: "";
+      display: block; } }
+  #primary-nav ul li a {
+    display: block;
+    padding-left: 10px;
+    color: #2d2d2d;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    height: 1.2em; }
+    @media screen and (min-width: 768px) {
+      #primary-nav ul li a {
+        display: inline;
+        float: right;
+        border: none;
+        padding: 0 10px; } }
+
+#primary-nav li:last-child a {
+  border-bottom: none; }
+
+#primary-nav li a:hover,
+#primary-nav li a:focus {
+  border-bottom: 1px solid #2d2d2d; }
+
+@media screen and (min-width: 768px) {
+  #primary-nav {
+    position: absolute;
+    top: 22em;
+    right: 0;
+    background: none; }
+    #primary-nav .top {
+      display: none; }
+    #primary-nav li {
+      display: inline; } }
+
+/*# sourceMappingURL=styles.css.map */
