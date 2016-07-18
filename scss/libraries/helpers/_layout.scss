@@ -61,6 +61,18 @@ header.img-19 {
   margin-top: 5%;
 
 }
+.medium-hide {
+  padding-right: 20px;
+  padding-bottom: 30px;
+  @media screen and (min-width: 740px) {
+    display: none;
+  }
+}
+.small-hide {
+  @media screen and (max-width: 740px) {
+    display: none;
+  }
+}
 .first-article-large {
   @include span-columns(12);
   & img {

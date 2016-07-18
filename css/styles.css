@@ -899,6 +899,17 @@ header.img-19 {
   .top-row:last-child, .middle-row:last-child, .bottom-row:last-child {
     margin-right: 0; }
 
+.medium-hide {
+  padding-right: 20px;
+  padding-bottom: 30px; }
+  @media screen and (min-width: 740px) {
+    .medium-hide {
+      display: none; } }
+
+@media screen and (max-width: 740px) {
+  .small-hide {
+    display: none; } }
+
 .first-article-large {
   float: left;
   display: block;
@@ -965,7 +976,7 @@ header.img-19 {
   .hover-tile-outer-1 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-1 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-1 .hover-tile-container {
@@ -1012,7 +1023,7 @@ header.img-19 {
   .hover-tile-outer-2 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-2 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-2 .hover-tile-container {
@@ -1059,7 +1070,7 @@ header.img-19 {
   .hover-tile-outer-3 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-3 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-3 .hover-tile-container {
@@ -1106,7 +1117,7 @@ header.img-19 {
   .hover-tile-outer-4 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-4 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-4 .hover-tile-container {
@@ -1153,7 +1164,7 @@ header.img-19 {
   .hover-tile-outer-5 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-5 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-5 .hover-tile-container {
@@ -1200,7 +1211,7 @@ header.img-19 {
   .hover-tile-outer-6 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-6 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-6 .hover-tile-container {
@@ -1247,7 +1258,7 @@ header.img-19 {
   .hover-tile-outer-7 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-7 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-7 .hover-tile-container {
@@ -1294,7 +1305,7 @@ header.img-19 {
   .hover-tile-outer-8 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-8 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-8 .hover-tile-container {
@@ -1341,7 +1352,7 @@ header.img-19 {
   .hover-tile-outer-9 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-9 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-9 .hover-tile-container {
@@ -1388,7 +1399,7 @@ header.img-19 {
   .hover-tile-outer-10 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-10 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-10 .hover-tile-container {
@@ -1435,7 +1446,7 @@ header.img-19 {
   .hover-tile-outer-11 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-11 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-11 .hover-tile-container {
@@ -1482,7 +1493,7 @@ header.img-19 {
   .hover-tile-outer-12 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-12 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-12 .hover-tile-container {
@@ -1529,7 +1540,7 @@ header.img-19 {
   .hover-tile-outer-13 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-13 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-13 .hover-tile-container {
@@ -1576,7 +1587,7 @@ header.img-19 {
   .hover-tile-outer-14 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-14 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-14 .hover-tile-container {
@@ -1623,7 +1634,7 @@ header.img-19 {
   .hover-tile-outer-15 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-15 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-15 .hover-tile-container {
@@ -1670,7 +1681,7 @@ header.img-19 {
   .hover-tile-outer-16 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-16 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-16 .hover-tile-container {
@@ -1717,7 +1728,7 @@ header.img-19 {
   .hover-tile-outer-17 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-17 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-17 .hover-tile-container {
@@ -1764,7 +1775,7 @@ header.img-19 {
   .hover-tile-outer-19 .hover-tile-outer-10 {
     width: 200px;
     margin: 0; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 870px) {
       .hover-tile-outer-19 .hover-tile-outer-10 {
         width: 250px; } }
   .hover-tile-outer-19 .hover-tile-container {
