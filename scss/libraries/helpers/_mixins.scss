@@ -29,15 +29,16 @@
       @include clearfix;
         & li:first-child {
           background-color: $color-third;
-          color: white;
-          padding: 1% 1.5% 1% 1.5%;
           @include float_class(left);
+          & a {
+            color: white;
+          }
         }
         li {
           display: $list;
           list-style-type: none;
           text-decoration: none;
-          padding: 1% 1.5% .5% 1.5%;
+          padding: .6em .8em .6em .8em;
           @include float_class(right);
           & a {
             color: lighten($color-first, 20%);

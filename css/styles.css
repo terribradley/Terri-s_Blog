@@ -393,16 +393,16 @@ html {
     content: "";
     display: block; }
   .container ul li:first-child {
-    background-color: #33889f;
-    color: white;
-    padding: 1% 1.5% 1% 1.5%; }
+    background-color: #33889f; }
     .container ul li:first-child .left {
       float: left; }
+    .container ul li:first-child a {
+      color: white; }
   .container ul li {
     display: inline;
     list-style-type: none;
     text-decoration: none;
-    padding: 1% 1.5% .5% 1.5%; }
+    padding: .6em .8em .6em .8em; }
     .container ul li .right {
       float: right; }
     .container ul li a {
