@@ -1,3 +1,12 @@
+%anchor {
+  a {
+    list-style-type: $anchor;
+    text-decoration: $anchor;
+    &:hover {
+      color: $color-fourth;
+    }
+  }
+}
 @mixin float_class($float) {
   .#{$float} {
     float:$float;
@@ -6,17 +15,6 @@
 @include float_class(right);
 @include float_class(left);
 
-@mixin anchors($anchor) {
- .container {
-   a {
-   list-style-type: $anchor;
-   text-decoration: $anchor;
-      &:hover {
-       color: $color-fourth;
-      }
-    }
-  }
-}
 @include anchors(none);
 
 @mixin list-items($list) {
@@ -41,7 +39,7 @@
           @include float_class(right);
           & a {
             color: lighten($color-first, 20%);
-            @include anchors(none);
+            @extend %anchor;
 
           }
         }
